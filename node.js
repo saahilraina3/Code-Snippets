@@ -34,3 +34,12 @@ let b = 12 + 7 + " Mike";
 
 console.log(a);
 console.log(b);
+
+// IIFE & Arrow Function
+
+(function myAge(){
+    console.log("Basic Function");
+}());
+
+//let arrow = () => return "Hello from Arrow Function"
+
